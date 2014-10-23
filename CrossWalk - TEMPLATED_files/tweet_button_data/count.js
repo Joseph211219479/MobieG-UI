@@ -1,0 +1,1 @@
+/**/twttr.receiveCount({"count":227,"url":"http:\/\/templated.co\/"});

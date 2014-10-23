@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <link href="bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="jquery-1.11.1.min.js"></script>
+        <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+        <link href="sideNav.css" rel="stylesheet">
+        
+        <link href="bootstrap-3.2.0-dist/css/bootstrap-responsive.min.css" rel="stylesheet">
+        
+        
+        
+        
+        <style>
+            .center {
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                background-color: ‪#‎b0e0e6‬;
+            }
+            .right{
+                 float: right;;
+                width: 70;
+            }
+            p.one {
+                border-style: solid;
+                border-color: red;
+            }
+            h1 {
+                color: black;
+            }
+        </style>
+        <!-------------------------------------EndStyle------------------------------------------------------------------ --> 
+    </head>
+    <body>
+        
+    <div class="responsive">
+        <div class="container">
+         
+            <div class="center">
+                  <!-------------------------------------MenuBar------------------------------------------------------------------ -->      
+      
+              <div class="navbar-collapse collapse" >
+                  <a href="index.html"><img src="Images/slider/mobieG300x202.jpg" height="70" width="150"></a> 
+                  <form class="navbar-form navbar-right" role="form">
+              
+                      <!--<a href="sign_in.html" <button type="button" class="btn btn-registor" >Sign in <a href ="register.html"></button></a>
+                     <a href="register.html" <button type="button" class="btn btn-registor" >Create an account <a href ="register.html"></button></a>-->
+                      <ul class="nav navbar-nav navbar-right">
+                        
+                        <li class="active"><a href="./">Home</a></li>
+                        <li><a href="sign_in.html">Sign in</a></li>
+                          <li><a href="liveChat.html">Live Chat</a></li>
+                        <li><a href="With%20Plus_Minus%20Signs.html">Topics</a></li>
+                        <li class="active"><a href="guest.html">Guest</a></li>
+                           <li class="active"><a href="sponcers.html">Sponcers</a></li>
+                          <li class="active"><a href="contact_us.html">Contact Us</a></li>
+                      </ul>
+                  </form>  
+            </div>
+        
+
+
+ <!-------------------------------------End bar------------------------------------------------------------------ -->           
+      <!-------------------------------------MenuBar------------------------------------------------------------------ --> 
+                 <div class="navbar-collapse collapse" >
+                  
+                  <form class="navbar-form navbar-right" role="form">
+                     
+                    </form>
+                </div>
+                
+                <div class="span8" id="divMain">
+
+    <h1>Leave your message</h1>
+    <!--<h3 style="color:#FF6633;"><?php echo $_GET[msg];?></h3>-->
+    <hr>
+    <!--Start Contact form -->		                                                
+    <form name="enq" method="post" action="email/" onsubmit="return validation();">
+    
+        <fieldset>    
+        <input type="text" name="name" id="name" value=""  class="input-block-level" placeholder="Name" />
+        <input type="text" name="email" id="email" value="" class="input-block-level" placeholder="Email" />
+        <textarea rows="11" name="message" id="message" class="input-block-level" placeholder="Comments"></textarea>
+        <div class="actions">
+        <input type="submit" value="Send Your Message" name="submit" id="submitButton" class="btn btn-info pull    -right" title="Click here to submit your message!" />
+        </div>	
+        </fieldset>
+	
+    </form>  				 
+    <!--End Contact form -->											 
+</div>
+            </div>
+         </div>
+        </div>
+    </body>
+</html>

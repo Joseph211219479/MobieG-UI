@@ -1,0 +1,51 @@
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+    
+    div#navigation {
+  float: left;
+  width: 300px;
+  height: 150%;
+  color: #ffffff;
+  background-color: eaeaf7;
+  <!--border: 1px solid #000;-->
+  padding: 10px;
+}
+    
+       div#rightnav {
+  float: right;
+  width: 300px;
+  height: 150%;
+  color: #ffffff;
+  background-color: #666;
+  <!--border: 1px solid #000;-->
+  padding: 5px;
+}
+    
+    div#sidebar {
+position: absolute;
+top: 480px;
+left: 72%;
+width: 22%;
+overflow: hidden;
+font-size: 0;
+padding-bottom: 120px;
+}
+}
